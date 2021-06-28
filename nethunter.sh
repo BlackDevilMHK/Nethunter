@@ -214,7 +214,7 @@ resolvconf
 finalwork() {
 	[ -e $HOME/finaltouchup.sh ] && rm $HOME/finaltouchup.sh
 	echo
-	axel -a https://github.com/BlackDevilMHK/Nethunter/raw/main/finaltouchup.sh
+	axel -a https://github.com/BlackDevilMHK/Nethunter/blob/main/finaltouchup.sh
 	DESTINATION=$DESTINATION SETARCH=$SETARCH bash $HOME/finaltouchup.sh
 } 
 finalwork
